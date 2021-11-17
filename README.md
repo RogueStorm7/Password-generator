@@ -3,7 +3,7 @@
 ## Purpose
 Passwords generated randomly can create greater protection for sensitive personal information and data. In this application HTML is used to markup the structure of the website. CSS is used to style the content tht the user sees. Javascript is utlized to program the behavior functionality of this website, after gathering information the user inputs through a series of prompts a random password is generated. 
 
-The specific criteria for the password are: lowercase, uppercase, having a length of 8-128 characters, special characters types and/or numbers. Each prompt is to be validated after selction and finally for the generated password that matches the selected criteria ro display on the page. 
+The specific criteria for the password are: lowercase, uppercase, having a length of 8-128 characters, special characters types and/or numbers. Each prompt is to be validated after selction and finally for the generated password that matches the selected criteria to display on the page. 
 
 ## Build With
 * HTML

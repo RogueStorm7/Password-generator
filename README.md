@@ -6,9 +6,9 @@ Passwords generated randomly can create greater protection for sensitive persona
 The specific criteria for the password are: lowercase, uppercase, having a length of 8-128 characters, special characters types and/or numbers. Each prompt is to be validated after selction and finally for the generated password that matches the selected criteria ro display on the page. 
 
 ## Build With
-HTML
-CSS
-JavaScript
+* HTML
+* CSS
+* JavaScript
 
 ## Usage
 Open the password generator URL in your browser.

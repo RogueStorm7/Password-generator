@@ -15,6 +15,6 @@ Open the password generator URL in your browser.
 Generate a random password by clicking the "Generate Password" button and following the prompts.
 
 ## Website
-
+https://roguestorm7.github.io/Password-generator-challenge/
 #License
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

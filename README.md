@@ -13,7 +13,7 @@ The specific criteria for the password are: lowercase, uppercase, having a lengt
 ## Usage
 Open the password generator URL in your browser.
 Generate a random password by clicking the "Generate Password" button and following the prompts.
-
+![password-generator-challenge\images\Screenshot-prompt1.png]
 ## Website
 https://roguestorm7.github.io/Password-generator-challenge/
 #License

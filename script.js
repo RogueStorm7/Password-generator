@@ -20,12 +20,12 @@ function generatePassword() {
   var possibleCharacters = [];
   var numberofChararcters;
   // get input and validate
-  numberofChararcters = parseInt(prompt ("How many characters do you want in your password? Please choose between 8-128 characters"));
-  console.log (numberofChararcters, typeof numberofChararcters)
+  numberofChararcters = parseInt(prompt("How many characters do you want in your password? Please choose between 8-128 characters"));
+  console.log(numberofChararcters, typeof numberofChararcters)
   if (numberofChararcters < 8 || numberofChararcters > 128) {
     return " Please choose a valid number of characters.";
   } else if (isNaN(numberofChararcters)) {
-   return " Please enter a valid number";
+    return " Please enter a valid number";
   } else {
     alert(" Your password will be " + numberofChararcters + " characters long.");
 
@@ -39,7 +39,7 @@ function generatePassword() {
     //   alert(" Your password will NOT be lowercase characters.");
     // }
 
-     var hasUppercase = confirm(" Do you want uppercase characters? ");
+    var hasUppercase = confirm(" Do you want uppercase characters? ");
     // if (hasUppercase) {
     //   alert("Your password will have uppercase characters.");
     // }
@@ -91,30 +91,30 @@ function generatePassword() {
     return finalPassword;
   };
 }
-  // get referencess to the #generate element
-  //var generateBtn = document.querySelector("#generate");
+// get referencess to the #generate element
+//var generateBtn = document.querySelector("#generate");
 
-  // write password to the # password input
-  function writePassword() {
-    console.log ("try to writePassword")
-    var password = generatePassword();
-    var passwordText = document.querySelector("#password");
-    passwordText.value = password;
-  }
+// write password to the # password input
+function writePassword() {
+  console.log("try to writePassword")
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+  passwordText.value = password;
+}
 
-  // Add event listener to generate button
-  function UserInput(ps) {
-    document.getElementById("password").textContent = ps;
+// Add event listener to generate button
+function UserInput(ps) {
+  document.getElementById("password").textContent = ps;
 
-  }
-  //generate event listen
-    generateBtn.addEventListener("click", function () {
-    writePassword();
+}
+//generate event listen
+generateBtn.addEventListener("click", function () {
+  writePassword();
 
-  })
+})
 
-  function copyPassword() {
-    document.getElementById("password").select();
-    document.surroundContents()("Copy");
-    alert("Password copied to clipboard!");
-  }
+function copyPassword() {
+  document.getElementById("password").select();
+  document.surroundContents()("Copy");
+  alert("Password copied to clipboard!");
+}
